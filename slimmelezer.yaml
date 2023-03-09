@@ -64,7 +64,7 @@ web_server:
 uart:
   baud_rate: 115200
   rx_pin: D7
-  rx_buffer_size: 1700
+  rx_buffer_size: 3000
 
 globals:
   - id: has_key
@@ -77,7 +77,7 @@ globals:
 
 dsmr:
   id: dsmr_instance
-  max_telegram_length: 1700
+  max_telegram_length: 3000
   # For Luxembourg users set here your decryption key
   #decryption_key: !secret decryption_key // enable this when using decryption for Luxembourg; key like '00112233445566778899AABBCCDDEEFF'
 
